@@ -109,3 +109,30 @@ body {
 .warning {
   color: var(--secondary-color);
 }
+
+.statistics-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--white-color);
+  border-radius: 12px;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 10px 15px;
+}
+
+.statistics-panel thead td {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--grey-color);
+  padding-bottom: 5px;
+}
+
+.statistics-panel tbody td {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  padding: 10px 15px;
+}
